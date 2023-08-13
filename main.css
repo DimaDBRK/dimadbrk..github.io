@@ -252,7 +252,7 @@ h1 {
 
 /* end line */
 
-#about-header {
+.about-header {
     display: flex;
     flex-direction: column;
    
@@ -269,7 +269,8 @@ h2 {
 h3 {
     font-size: 30px;
 }
-#about-content-box {
+
+.about-content-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -279,11 +280,11 @@ h3 {
 
 }
 
-#know-me {
+.know-me {
     max-width: 450px;
 }
 
-#know-me-text-box {
+.know-me-text-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,7 +293,7 @@ h3 {
     padding: 10px;
 }
 
-#skills-box {
+.skills-box {
     padding-top: 10px;
     max-width: 450px;
     display: flex;
@@ -325,7 +326,7 @@ h3 {
     gap:40px;
 }
 
-#project-img-box {
+.project-img-box {
     max-width: 450px;
     display: flex;
     flex-direction: row;
@@ -453,7 +454,7 @@ h3 {
 }
 
 .btn-blue { 
-    background-color: blue;
+    background-color: #320DF0;
     color:#ffffff;
   
 }

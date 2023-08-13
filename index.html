@@ -61,18 +61,18 @@
 
     <!-- About -->
     <section id = "about-box" class="about">
-        <div id = "about-header">
+        <div class = "about-header">
             <h2>About me</h2>
             <div class="line line-violet"></div>
             <p>
                 Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
             </p>
         </div >
-        <div id="about-content-box">
-            <div id = "know-me">
+        <div class="about-content-box">
+            <div class="know-me">
                 <h3>Get to know me!</h3>
                 <div></div>
-                <div id ="know-me-text-box">
+                <div class ="know-me-text-box">
                     <p>
                         Well-balanced combination of “team playing” and personal responsibility. Strong problem-solving capabilities. I am actively seeking software engineering positions that provide opportunities for professional growth and allow me to make a meaningful impact on business.
                     </p>
@@ -84,9 +84,9 @@
                 
                 
             </div>
-            <div id ="skills"> 
+            <div class ="skills"> 
                 <h3>My Skills</h3>
-                <div id = "skills-box">
+                <div class = "skills-box">
                     <div class = "skill">Python</div>
                     <div class = "skill">JavaScript</div>
                     <div class = "skill">Django</div>
@@ -112,23 +112,64 @@
 
     <!-- Projects -->
     <section id = "projects-box" class="projects">
-        <div id = "about-header">
+        <div class = "about-header">
             <h2>Projects</h2>
             <div class="line line-yellow"></div>
             <p>
                 Here I would like to share some of the personal projects I have created with you
             </p>
         </div >
+        <!-- Full Stack Project -->
+        <div class="about-content-box">
+            <div class ="project-img-box"> 
+                <img class ="project-img" src="Images/Project_Fine.jpg" alt="Final Project">
+            </div>
+
+            <div class = "know-me">
+                <h3>Full Stack Fine Dashboard App </h3>
+                <div></div>
+                <div class ="know-me-text-box">
+                    <p>
+                        Comprehensive application that showcases data on dynamic charts with user-friendly filters.
+                    </p>
+                    <p>
+                        It offers seamless profile management for users, providing a streamlined experience for data analysis and visualization.
+                    </p>
+                    
+                    <p>
+                        Frontend: React and Material UI
+                    </p>
+                    <p>
+                        Backend: Node.js, Database (ElephantSQL)
+                    </p>
+                    <p>
+                        Authentication system with JSON Web Tokens (JWT)
+                    </p>
+                   
+                   
+                    
+                </div>
+              
+             
+            </div>
+          
+        </div>
+        <!-- some css background between projects -->
+        <div class = "doted">
+            <a target="_blank" href="https://github.com/DimaDBRK/FineDashboard" class = "btn btn-yellow">Github</a>
+            <!-- <a target="_blank" href="https://youtu.be/lnbHqoabacM" class = "btn btn-yellow">Video</a> -->
+        </div>
+        <!-- end part  -->
         <!-- Project 1 -->
-        <div id="about-content-box">
-            <div id ="project-img-box"> 
+        <div class="about-content-box">
+            <div class ="project-img-box"> 
                 <img class ="project-img" src="Images/Project_weather.jpg" alt="Project1">
             </div>
 
-            <div id = "know-me">
+            <div class = "know-me">
                 <h3>Python Weather App</h3>
                 <div></div>
-                <div id ="know-me-text-box">
+                <div class ="know-me-text-box">
                     <p>
                         Brings together various functionalities to deliver a rich user experience.
                     </p>
@@ -139,7 +180,7 @@
                         User-friendly interface with Tkinter (UI), OpenWeatherMap API, Database for user registration, SMS informing
                     </p>
                     <p>
-                        The project was completed in collaboration with @Marina Rachlin.
+                        The project was completed in collaboration with <a target="_blank" href="https://www.linkedin.com/in/marina-rachlin-30192024a/" class = "btn">@Marina Rachlin</a>.
                     </p>
                    
                    
@@ -154,18 +195,19 @@
         <div class = "doted">
             <a target="_blank" href="https://github.com/DimaDBRK/DI_Hackathon_1" class = "btn btn-yellow">Github</a>
             <a target="_blank" href="https://youtu.be/lnbHqoabacM" class = "btn btn-yellow">Video</a>
+            <a target="_blank" href="https://www.linkedin.com/posts/developers.institute_hackathon-notechbackgroundneeded-developersinstitute-ugcPost-7079398575272599552-pv0A/?utm_source=share&utm_medium=member_desktop" class = "btn btn-yellow">DI Hackathon Winner</a>
         </div>
 
         <!-- Project 2 -->
-        <div id="about-content-box">
-            <div id ="project-img-box"> 
+        <div class="about-content-box">
+            <div class ="project-img-box"> 
                 <img class ="project-img" src="Images/p2_2.jpg" alt="Project1">
             </div>
 
-            <div id = "know-me">
+            <div class = "know-me">
                 <h3>JavaScript Words App</h3>
                 <div></div>
-                <div id ="know-me-text-box">
+                <div class ="know-me-text-box">
                     <p>
                         Allows users to add new words to a database and play games involving those words. New word - auto definition  via external API - dictionaryapi.dev
                     </p>
@@ -194,6 +236,7 @@
         <div class = "doted">
             <a target="_blank" href="https://github.com/DimaDBRK/DI_Hackathon2" class = "btn btn-yellow">Github</a>
             <a target="_blank" href="https://youtu.be/Nj1PsEW8ZSY" class = "btn btn-yellow">Video</a>
+            
         </div>
         
 
@@ -204,18 +247,18 @@
 
     <!-- Work  -->
     <section id = "work-box" class="about">
-        <div id = "about-header">
+        <div class = "about-header">
             <h2>Background</h2>
             <div class="line line-violet"></div>
             <p>
                 Here you will find more information about my work experience and education
             </p>
         </div >
-        <div id="about-content-box">
-            <div id = "know-me">
+        <div class="about-content-box">
+            <div class = "know-me">
                 <h3>Work</h3>
                 <div></div>
-                <div id ="know-me-text-box">
+                <div class ="know-me-text-box">
                     <p>
                         Experienced in driving technical and business growth in mobile telcommunications and devices, with a successful track record of establishing strong relationships with major mobile device vendors (Samsung, Xiaomi, Apple, and others). Proven ability to increase product share and drive sales. Skilled in conducting mobile tests for quality assurance, developing data-driven business cases, and performing market analysis. Additionally, adept at providing technical support to B2B clients.
                     <p>
@@ -226,9 +269,9 @@
                 
                 
             </div>
-            <div id ="skills"> 
+            <div class ="skills"> 
                 <h3>Education</h3>
-                <div id = "skills-box">
+                <div class = "skills-box">
                     <h4>
                     Developers Institute, TLV Coding Bootcamp 
                     </h4>
@@ -274,7 +317,7 @@
                     Please feel free to contact me at your convenience. I would be more than happy to discuss any further details or answer any questions you may have.
                 </p>
                 <a target="_blank" href="https://www.linkedin.com/in/dubrov/" class = "btn btn-blue small">in</a>
-                <a href="mailto:dmitry.i.dubrov@gmail.com" class = "btn btn-blue small">@</a>
+                <a target="_blank" href="https://medium.com/@dmitrydubrov" class = "btn btn-blue small">MD</a>
                 <a target="_blank" href="https://github.com/DimaDBRK" class = ""><img id = "gh-logo" src="Images/github-bleu.png" alt="GH"></a>
                 
                
